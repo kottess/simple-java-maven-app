@@ -8,12 +8,12 @@ pipeline {
         }
       stage('UAT') {
             steps {
-                echo "Hello from UAT!"
+                echo "Hello from UAT environment!"
             }
         }
       stage('PROD') {
             steps {
-              echo "Hello from PROD!"
+              echo "Hello from PROD environment!"
             }
         }
     }
